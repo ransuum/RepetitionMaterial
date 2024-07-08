@@ -1,14 +1,13 @@
 package patterns.abstractFactory;
 
 public class App {
-    private Button b;
-    private Rectangle r;
+    private Button button;
 
-    public App(Graphics graphics){
-        b = graphics.createButton();
-        r = graphics.createRect();
+    public App(Login login){
+        button = login.create();
     }
-    public void draw(){
-        r.paint();
+
+    public void click(){
+        button.click();
     }
 }
