@@ -1,6 +1,5 @@
 package patterns.chainOfResponsibility;
 
-import com.sun.net.httpserver.Request;
 
 public abstract class Handler {
     protected Handler next;
