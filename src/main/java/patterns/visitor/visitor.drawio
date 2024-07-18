@@ -1,0 +1,76 @@
+<mxfile host="drawio-plugin" modified="2024-07-18T08:28:33.319Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ocBZs-Ztl12SPjW_tSb9" version="22.1.22" type="embed">
+  <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
+    <mxGraphModel dx="978" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="61" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;div style=&quot;text-align: center; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;i&gt;Visitor&lt;/i&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;font-size: 14px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ visit(Professor): void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ visit(Student): void&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="150" y="310" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="66" value="implements" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="82" target="61" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="110" y="499.9999999999999" as="sourcePoint" />
+            <mxPoint x="373" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="71" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;Class&amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;Main&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;font-size: 14px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ main(String[]): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
+          <mxGeometry x="360" y="110" width="117" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="72" value="implements" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="83" target="61" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="342.5000000000001" y="499.9999999999999" as="sourcePoint" />
+            <mxPoint x="405" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="74" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;div style=&quot;text-align: center; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;i&gt;UniversityMember&lt;/i&gt;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;&amp;nbsp;&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;font-size: 14px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ accept(Visitor): void&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="545" y="520" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="76" value="implements" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="80" target="74">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="720" as="sourcePoint" />
+            <mxPoint x="813" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="78" value="implements" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="81" target="74">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="757.5" y="730" as="sourcePoint" />
+            <mxPoint x="845" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;Class&amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;University&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;hr style=&quot;font-size: 14px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;/p&gt;&amp;nbsp;- universityMembers: List&amp;lt;UniversityMember&amp;gt;&lt;hr style=&quot;font-size: 14px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ accept(Visitor): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ addUniversityMember(UniversityMember): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="485" y="300" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="80" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;Class&amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;div style=&quot;text-align: center; font-size: 14px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Professor&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;hr style=&quot;font-size: 14px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;- name: String&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;- salary: Double&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;/p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;+ accept(Visitor): void&lt;/font&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="410" y="705" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="81" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;Class&amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;div style=&quot;text-align: center; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Student&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;font-size: 14px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;- name: String&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;- creditHours: int&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;/p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;+ accept(Visitor): void&lt;/font&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="660" y="710" width="150" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="82" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;Class&amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b&gt;SalaryVisitor&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;hr style=&quot;font-size: 14px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;- totalSalary: Double&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;- name: String&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;/p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/font&gt;+ visit(Professor): void&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;+ visit(Student): void&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="83" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;Class&amp;gt;&amp;gt;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;div style=&quot;text-align: center; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;CreditHoursVisitor&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;hr style=&quot;font-size: 14px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;- totalHours: int&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;- name: String&lt;/font&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 14px;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;/p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/font&gt;+ visit(Professor): void&lt;/font&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;+ visit(Student): void&lt;/font&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="275" y="500" width="155" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="84" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="74" target="79">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="390" as="sourcePoint" />
+            <mxPoint x="510" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="85" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="71" target="61">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="330" as="sourcePoint" />
+            <mxPoint x="510" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="86" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="71" target="79">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="399" y="190" as="sourcePoint" />
+            <mxPoint x="235" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
