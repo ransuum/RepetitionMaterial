@@ -9,7 +9,7 @@ public class Main {
         salary.setAmount(-15.0f);
         float hours = 161.5f;
 
-        float totalWage = calculatePayment(salary.getAmount(), hours, (s, h) -> s * h);
+        float totalWage = calculatePayment(salary.getAmount(), hours, (s, h) -> s * h); ///d
         System.out.printf("Учтенное время работы: %s ч.%n", hours);
         System.out.printf("Общая выплата составляет: %s %s%n", totalWage, salary.getCurrencyName());
     }

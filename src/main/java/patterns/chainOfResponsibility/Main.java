@@ -12,6 +12,5 @@ public class Main {
         assist.handleRequest("default req");
         assist.handleRequest("test correct answers");
         assist.handleRequest("High secret mess");
-        assist.handleRequest("?");
     }
 }
