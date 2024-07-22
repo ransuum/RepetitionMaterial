@@ -7,6 +7,6 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
     public static int lengthOfLongestSubstring(String s) {
         if (s == null || s.isEmpty()) return 0;
-
+        return 0;
     }
 }
